@@ -8,7 +8,7 @@ import { Type } from '../../_model/Type';
   styleUrls: ['./pokemon-list.component.scss']
 })
 export class PokemonListComponent {
-  public pokemon: Pokemon[] = [
+  public pokemons: Pokemon[] = [
     {
       image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png',
       number: 1,
@@ -17,10 +17,38 @@ export class PokemonListComponent {
         Type.Grass,
         Type.Poison,
       ]
-    }
-  ];
-pokemons: any;
+    },
 
+    {
+      image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png',
+      number: 2,
+      name: 'Ivysaur',
+      types: [
+        Type.Grass,
+        Type.Poison,
+      ]
+    },
+
+    {
+      image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png',
+      number: 3,
+      name: 'Venusaur',
+      types: [
+        Type.Grass,
+        Type.Poison,
+      ]
+    },
+
+    {
+      image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png',
+      number: 4,
+      name: 'Charmander',
+      types: [
+        Type.Fire,
+     ]
+    },
+
+  ];
 }
 
 
