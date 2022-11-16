@@ -3,4 +3,6 @@ export enum Type {
   Grass = 'Grass',
   Poison = 'Poison',
   Fire = 'Fire',
+  Flying = 'Flying',
+  Water = 'Water',
 }

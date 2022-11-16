@@ -48,6 +48,53 @@ export class PokemonListComponent {
      ]
     },
 
+    {
+      image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png',
+      number: 5,
+      name: 'Charmeleon',
+      types: [
+        Type.Fire,
+     ]
+    },
+
+    {
+      image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png',
+      number: 6,
+      name: 'Charizard',
+      types: [
+        Type.Fire,
+        Type.Flying,
+     ]
+    },
+
+    {
+      image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png',
+      number: 7,
+      name: 'Squirtle',
+      types: [
+        Type.Water,
+     ]
+    },
+
+    {
+      image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png',
+      number: 8,
+      name: 'Wartortle',
+      types: [
+        Type.Water,
+     ]
+    },
+
+    {
+      image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png',
+      number: 9,
+      name: 'Blastoise',
+      types: [
+        Type.Water,
+     ]
+    },
+
+
   ];
 }
 

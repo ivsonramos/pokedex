@@ -1,6 +1,6 @@
 <div class="pokemon-card">
   <div class="pokemon-card__image">
-    <img class="imagem" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" alt="Pokemon Imagen" style=" background-color: #f2f2f2; border-radius: 5px">
+    <img class="imagem" [src]="pokemon.image" alt="Pokemon Imagen" style=" background-color: #f2f2f2; border-radius: 5px">
   </div>
   <div class="pokemon-card__number" style="padding: 0 10px;">
     N॰ {{ leadingZero(pokemon.number) }}
