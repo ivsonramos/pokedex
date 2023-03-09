@@ -1,4 +1,4 @@
-<div class="pokemon-card">
+<div class="pokemon-card" *ngIf="pokemon">
   <div class="pokemon-card__image">
     <img class="imagem" [src]="pokemon.image" alt="Pokemon Imagen" style=" background-color: #f2f2f2; border-radius: 5px">
   </div>
@@ -13,7 +13,7 @@
     <div class="pokemon-card__types"
       *ngFor="let type of pokemon.types"
       [class]="'pokemon-card__type--' + type.toLowerCase()">
-      {{type}}
+      {{ type }}
     </div>
   </div>
 </div>
