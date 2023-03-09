@@ -24,17 +24,12 @@ export class PokemonService {
         );
       }),
       mergeMap(value => value),
-    ).subscribe((result: any) => {
-      const pokemon: Pokemon = {
+    ).subscribe((result: any) => this.pokemons[result.id] =  {
         image: result.sprites.front_default,
         number: result.id,
         name: result.name,
         types: result.types.map((t: any) => t.type.name),
-      };
-
-      console.log(pokemon);
-
-      this.pokemons[result.id] = pokemon;
-    });
+      });
+   }
   }
-}
+
