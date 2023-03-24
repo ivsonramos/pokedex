@@ -12,6 +12,7 @@ export class PokemonCardComponent {
   public pokemon!: Pokemon;
 
   public getPokemonImage = getPokemonImage;
+
   public getPokemonNumber = getPokemonNumber;
 
 }
